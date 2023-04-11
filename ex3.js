@@ -5,7 +5,8 @@
 let nombre = "Mad";
 let apellido = "Max";
 
-let presentacion = "";
+let presentacion = "Me llamo " + nombre + " " + apellido + "?";
+
 
 /**
  * Pregunta 1: ¿Qué valor tengo que asignar a 'presenetacion' para que me muestre pantalla:
@@ -21,4 +22,15 @@ console.log("Pregunta 1:", presentacion);
  * Pregunta 2: Cambia el valor de las variables adecuadamente para que, en vez de "Me llamo Mad Max", escribe "Me llamo {tu nombre} {tu apellido}"
  */
 
+
+
+nombre = "Júlia";
+apellido = "Valls";
+
+presentacion = "Me llamo " + nombre + " " + apellido;
+
 console.log("Pregunta 2:", presentacion);
+
+presentacion = "Me llamo Júlia Valls"
+
+console.log("Pregunta 3:", presentacion);

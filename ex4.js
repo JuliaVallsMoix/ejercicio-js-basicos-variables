@@ -16,7 +16,10 @@
  * 
  */
 
-let numeroGatos = 10;
+let numeroGatos = 2;
+let proximaPareja = "alguien de quien yo esté perdidamente enamorada y él también lo estará de mi"
+let pais = "Grecia"
+let trabajo = "programadora con horario flexible y posibilidad de teletrabajar"
 
-let futuro = "tendréis " + numeroGatos + " gatos";
+let futuro = "Tú estarás en " + pais + " trabajando de " + trabajo + " y tu pareja será " + proximaPareja + " y tendréis " + numeroGatos + " gatos";
 console.log(futuro);
